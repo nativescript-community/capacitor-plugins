@@ -13,4 +13,12 @@ export class Tab1Page {
   launchModal() {
     native.openNativeModalView(); // Open native modal
   }
+
+  dreamBig() {
+    native.dreamBig();
+  }
+
+  changeBrightness() {
+    native.brightness(1); // Open native modal
+  }
 }

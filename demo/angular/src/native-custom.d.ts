@@ -10,4 +10,5 @@ declare module '@nativescript/capacitor' {
 export interface nativeCustom {
   dreamBig: () => NativeProperty<string>;
   openNativeModalView: () => void;
+  brightness: (value: number) => void;
 }

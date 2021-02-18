@@ -1,8 +1,5 @@
 // init - keep here.
 import '@nativescript/capacitor/bridge';
-import { openNativeModalView, dreamBig } from '@ns-capacitor/plugins';
+import * as Plugins from '@ns-capacitor/plugins';
 
-native = Object.assign(native, {
-  openNativeModalView,
-  dreamBig
-})
+native = Object.assign(native, Plugins);
