@@ -1,0 +1,22 @@
+{
+  "name": "@ns-capacitor/plugins",
+  "version": "0.0.0-0",
+  "description": "A native plugin for Capacitor created by NativeScript",
+  "main": "src/index.ts",
+  "files": [
+    "src/"
+  ],
+  "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "@nativescript/capacitor": "^1.0.0-beta.0",
+    "@nativescript/core": "7.3.0-rc.0",
+    "@nativescript/types": "7.3.0-rc.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "next",
+    "@capacitor/cli": "next",
+    "@capacitor/core": "next",
+    "@capacitor/ios": "next"
+  }
+}
