@@ -1,5 +1,4 @@
-// init - keep here.
-import '@nativescript/capacitor/bridge';
+export { NSPlugins } from './interfaces';
 
 export { dreamBig } from './examples/simple';
 export { openNativeModalView } from './examples/modal';

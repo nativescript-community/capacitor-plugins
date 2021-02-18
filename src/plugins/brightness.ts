@@ -28,7 +28,6 @@ export const brightness = (value: number) => {
         }
       }
     } else {
-      console.log('read and ' + value);
       UIScreen.mainScreen.brightness = value;
     }
 }
