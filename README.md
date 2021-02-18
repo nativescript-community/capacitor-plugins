@@ -40,6 +40,8 @@ import * as Plugins from '@ns-capacitor/plugins';
 native = Object.assign(native, Plugins);
 ```
 
+[Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/nativescript/index.ts)
+
 ### 2. Replace `src/native-custom.d.ts`
 
 Replace the following code:
@@ -57,28 +59,33 @@ declare module '@nativescript/capacitor' {
 export interface nativeCustom extends NSPlugins {}
 ```
 
-## Usage
-This plugin can use from `@nativescript/capacitor`.
+[Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/native-custom.d.ts)
 
-```
-import { native } from '@nativescript/capacitor';
-```
+## Usage
+[Usage Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/app/tab1/tab1.page.ts).
+
 
 ### 1. brightness(value: number)
 You can change device brightness (1〜10). This is official example code.
 
 ```ts
+import { native } from '@nativescript/capacitor';
+
 native.brightness(1);
 ```
 
 ### Demo Code
 You can check Native Console Log. This is official example code.
 ```ts
+import { native } from '@nativescript/capacitor';
+
 native.dreamBig();
 ```
 
 And Launch Native Modal View. This is official example code.
 
 ```ts
+import { native } from '@nativescript/capacitor';
+
 native.openNativeModalView();
 ```
