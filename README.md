@@ -1,14 +1,14 @@
-# @ns-capacitor/plugins
+# @nativescript-community/capacitor-plugins
 
-__✅ This repository is test repository, and not release @ns-capacitor/plugins now.__
+__✅ This repository is test repository, and not release @nativescript-community/capacitor-plugins now.__
 
 ## 👊 Try this project
 
 Please clone, and npm link in your local.
 
 ```bash
-% git clone git@github.com:rdlabo/ns-capacitor-plugins.git
-% cd ns-capacitor-plugins && npm install
+% git clone git@github.com:nativescript-community/capacitor-plugins.git
+% cd capacitor-plugins && npm install
 % npm link
 ```
 
@@ -24,7 +24,7 @@ Please clone, and npm link in your local.
 ### Install
 
 ```bash
-% npm install --save @ns-capacitor/plugins
+% npm install --save @nativescript-community/capacitor-plugins
 ```
 
 ### Change your project
@@ -35,20 +35,20 @@ Add the following code:
 
 ```diff
   import '@nativescript/capacitor/bridge';
-+ import * as Plugins from '@ns-capacitor/plugins';
++ import * as Plugins from '@nativescript-community/capacitor-plugins';
 
 + native = Object.assign(native, Plugins);
 ...
 ```
 
-[Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/nativescript/index.ts)
+[Example demo is here.](https://github.com/nativescript-community/capacitor-plugins/blob/main/demo/angular/src/nativescript/index.ts)
 
 ### 2. Change `src/native-custom.d.ts`
 
 Replace the following code:
 
 ```diff
-+ import type { NSPlugins } from '@ns-capacitor/plugins/src/interfaces';
++ import type { NSPlugins } from '@nativescript-community/capacitor-plugins/src/interfaces';
 
   declare module '@nativescript/capacitor' {
     export interface customNativeAPI extends nativeCustom {}
@@ -61,10 +61,10 @@ Replace the following code:
 + export interface nativeCustom extends NSPlugins {
 ```
 
-[Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/native-custom.d.ts)
+[Example demo is here.](https://github.com/nativescript-community/capacitor-plugins/blob/main/demo/angular/src/native-custom.d.ts)
 
 ## Usage
-[Usage Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/app/tab1/tab1.page.ts).
+[Usage Example demo is here.](https://github.com/nativescript-community/capacitor-plugins/blob/main/demo/angular/src/app/tab1/tab1.page.ts).
 
 
 ### 1. brightness(value: number)

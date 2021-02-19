@@ -1,5 +1,5 @@
 {
-  "name": "@ns-capacitor/plugins",
+  "name": "@nativescript-community/capacitor-plugins",
   "version": "0.0.0-0",
   "description": "A native plugin for Capacitor created by NativeScript",
   "main": "src/index.ts",

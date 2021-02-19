@@ -25,7 +25,7 @@
     "@capacitor/ios": "next",
     "@ionic/angular": "^5.5.2",
     "@nativescript/capacitor": "^1.0.0-beta.0",
-    "@ns-capacitor/plugins": "../..",
+    "@nativescript-community/capacitor-plugins": "../..",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

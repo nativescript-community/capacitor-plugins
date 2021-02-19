@@ -1,5 +1,5 @@
 import '@nativescript/capacitor/bridge';
-import * as Plugins from '@ns-capacitor/plugins';
+import * as Plugins from '@nativescript-community/capacitor-plugins';
 
 native = Object.assign(native, Plugins);
 
