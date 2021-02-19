@@ -1,3 +1,4 @@
+import type { NativeProperty } from '@nativescript/capacitor';
 import type { NSPlugins } from '@ns-capacitor/plugins/src/interfaces';
 
 declare module '@nativescript/capacitor' {
@@ -7,4 +8,7 @@ declare module '@nativescript/capacitor' {
 /**
  * Define your own custom strongly typed native helpers here.
  */
-export interface nativeCustom extends NSPlugins {}
+export interface nativeCustom extends NSPlugins {
+  dreamBig: () => NativeProperty<string>;
+  openNativeModalView: () => void;
+}

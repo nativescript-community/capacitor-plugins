@@ -29,34 +29,36 @@ Please clone, and npm link in your local.
 
 ### Change your project
 
-#### 1. Replace `src/nativescript/index.ts`
+#### 1. Add `src/nativescript/index.ts`
 
-Replace the following code:
+Add the following code:
 
-```ts
-import '@nativescript/capacitor/bridge';
-import * as Plugins from '@ns-capacitor/plugins';
+```diff
+  import '@nativescript/capacitor/bridge';
++ import * as Plugins from '@ns-capacitor/plugins';
 
-native = Object.assign(native, Plugins);
++ native = Object.assign(native, Plugins);
+...
 ```
 
 [Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/nativescript/index.ts)
 
-### 2. Replace `src/native-custom.d.ts`
+### 2. Change `src/native-custom.d.ts`
 
 Replace the following code:
 
-```d.ts
-import type { NSPlugins } from '@ns-capacitor/plugins/src/interfaces';
+```diff
++ import type { NSPlugins } from '@ns-capacitor/plugins/src/interfaces';
 
-declare module '@nativescript/capacitor' {
-  export interface customNativeAPI extends nativeCustom {}
-}
+  declare module '@nativescript/capacitor' {
+    export interface customNativeAPI extends nativeCustom {}
+  }
 
-/**
- * Define your own custom strongly typed native helpers here.
- */
-export interface nativeCustom extends NSPlugins {}
+  /**
+   * Define your own custom strongly typed native helpers here.
+   */
+- export interface nativeCustom {
++ export interface nativeCustom extends NSPlugins {
 ```
 
 [Example demo is here.](https://github.com/rdlabo/ns-capacitor-plugins/blob/main/demo/angular/src/native-custom.d.ts)

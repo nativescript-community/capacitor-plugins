@@ -13,10 +13,5 @@
     "@nativescript/core": "7.3.0-rc.0",
     "@nativescript/types": "7.3.0-rc.0"
   },
-  "devDependencies": {
-    "@capacitor/android": "next",
-    "@capacitor/cli": "next",
-    "@capacitor/core": "next",
-    "@capacitor/ios": "next"
-  }
+  "devDependencies": {}
 }

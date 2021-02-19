@@ -15,7 +15,7 @@ import {
  * Android: https://developer.android.com/reference/android/widget/LinearLayout
  */
 
-export const openNativeModalView = () => {
+native.openNativeModalView = () => {
   if (native.isAndroid) {
     androidCreateDialog(() => {
       const activity = native.androidCapacitorActivity;
