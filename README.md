@@ -91,3 +91,27 @@ import { native } from '@nativescript/capacitor';
 
 native.openNativeModalView();
 ```
+
+## Option
+
+### If you want use some plugin only:
+You should select plugin and import.
+
+`src/nativescript/index.ts`:
+
+```ts
+import { brightness } from '@nativescript-community/capacitor-plugins';
+native = Object.assign(native, {
+  brightness,
+});
+```
+
+`src/native-custom.d.ts`:
+
+```ts
+import type { IBrightness } from '@nativescript-community/capacitor-plugins/src/interfaces';
+export interface nativeCustom extends IBrightness {
+  dreamBig: () => NativeProperty<string>;
+  openNativeModalView: () => void;
+}
+```

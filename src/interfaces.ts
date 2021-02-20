@@ -1,8 +1,13 @@
 import type { NativeProperty } from '@nativescript/capacitor';
 
 /**
- * Define your own custom strongly typed native helpers here.
+ * Define every plugin interface native helpers here.
  */
-export interface NSPlugins {
+export interface brightnessPlugin {
   brightness: (value: number) => void;
 }
+
+/**
+ * Define all extend interface.
+ */
+export interface pluginsGlobal extends brightnessPlugin {}
