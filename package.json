@@ -8,10 +8,15 @@
   ],
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
+  "scripts": {
+    "release": "np"
+  },
   "dependencies": {
     "@nativescript/capacitor": "^1.0.0-beta.0",
     "@nativescript/core": "7.3.0-rc.0",
     "@nativescript/types": "7.3.0-rc.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "np": "^7.4.0"
+  }
 }
