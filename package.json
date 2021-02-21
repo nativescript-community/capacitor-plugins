@@ -9,7 +9,7 @@
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
   "scripts": {
-    "release": "np"
+    "release": "np --no-cleanup"
   },
   "dependencies": {
     "@nativescript/capacitor": "^1.0.0-beta.0",
