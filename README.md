@@ -50,7 +50,7 @@ Add the following code:
 Replace the following code:
 
 ```diff
-+ import type { NSPlugins } from '@nativescript-community/capacitor-plugins/src/interfaces';
++ import type { pluginsGlobal } from '@nativescript-community/capacitor-plugins/src/interfaces';
 
   declare module '@nativescript/capacitor' {
     export interface customNativeAPI extends nativeCustom {}
@@ -60,7 +60,7 @@ Replace the following code:
    * Define your own custom strongly typed native helpers here.
    */
 - export interface nativeCustom {
-+ export interface nativeCustom extends NSPlugins {
++ export interface nativeCustom extends pluginsGlobal {
 ```
 
 [Example demo is here.](https://github.com/nativescript-community/capacitor-plugins/blob/main/demo/angular/src/native-custom.d.ts)
