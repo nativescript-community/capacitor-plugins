@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40nativescript-community%2Fcapacitor-plugins.svg)](https://badge.fury.io/js/%40nativescript-community%2Fcapacitor-plugins)
+
 # @nativescript-community/capacitor-plugins
 
 __✅ This repository is test repository, and not release @nativescript-community/capacitor-plugins now.__
