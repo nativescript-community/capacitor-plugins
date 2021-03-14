@@ -9,7 +9,9 @@
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
   "scripts": {
-    "release": "np --no-cleanup"
+    "release": "np --no-cleanup",
+    "build:nativescript": "build-nativescript",
+    "build:mobile": "npm-run-all build build:nativescript"
   },
   "dependencies": {
     "@nativescript/capacitor": "^1.0.0-beta.0",

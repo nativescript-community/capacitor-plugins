@@ -1,1 +1,20 @@
 node_modules
+nativescript
+src/native-custom.d.ts
+
+# NativeScript
+android/app/gradle-helpers
+android/app/src/debug/java/com/tns
+android/app/src/debug/res/layout/error_activity.xml
+android/app/src/debug/res/layout/exception_tab.xml
+android/app/src/debug/res/layout/logcat_tab.xml
+android/app/src/main/assets/internal
+android/app/src/main/assets/metadata
+android/app/src/main/java/com/tns
+android/build-tools
+ios/App/internal
+ios/App/NativeScript*
+ios/App/TNSWidgets*
+ios/App/.build*
+src/nativescript/node_modules
+src/nativescript/package-lock.json

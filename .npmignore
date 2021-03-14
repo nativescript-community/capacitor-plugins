@@ -1,2 +1,5 @@
 .idea
 demo/
+node_modules
+nativescript
+src/native-custom.d.ts
