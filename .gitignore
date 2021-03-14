@@ -1,5 +1,6 @@
 node_modules
-
+nativescript
+src/native-custom.d.ts
 
 # NativeScript
 android/app/gradle-helpers
@@ -17,4 +18,3 @@ ios/App/TNSWidgets*
 ios/App/.build*
 src/nativescript/node_modules
 src/nativescript/package-lock.json
-      
