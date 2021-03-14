@@ -18,3 +18,7 @@ ios/App/TNSWidgets*
 ios/App/.build*
 src/nativescript/node_modules
 src/nativescript/package-lock.json
+
+# IDEs
+.idea/
+.DS_Store
