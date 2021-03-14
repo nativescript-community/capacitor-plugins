@@ -1,0 +1,6 @@
+[
+	{
+		"pkg": "@nativescript/capacitor",
+		"classpath": "org.nativescript.capacitor.NativeScriptCapPlugin"
+	}
+]
