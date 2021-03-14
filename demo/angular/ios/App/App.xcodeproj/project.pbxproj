@@ -15,11 +15,11 @@
 		504EC3121FED79650016851F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504EC3101FED79650016851F /* LaunchScreen.storyboard */; };
 		50B271D11FEDC1A000F3C39B /* public in Resources */ = {isa = PBXBuildFile; fileRef = 50B271D01FEDC1A000F3C39B /* public */; };
 		A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */; };
-		3B023F2108EB424A83B4D0E7 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D54D6BDAD584E439D894FE7 /* Runtime.m */; };
-		AAB06C56C01443CE9AD9674D /* NativeScript.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = E626E72211A344DA842E3EA6 /* NativeScript.xcframework */; };
-		19BA1843794748CC93AF9BD6 /* NativeScript.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E626E72211A344DA842E3EA6 /* NativeScript.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2B04A88C61684F978D817D60 /* TNSWidgets.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = CDE3686BE2F54F688A3D55C3 /* TNSWidgets.xcframework */; };
-		3E786DCDC81742488DB998AA /* TNSWidgets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDE3686BE2F54F688A3D55C3 /* TNSWidgets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E0B9EADB72274A0AB28B53E1 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC0CC497CED44C893A43FA8 /* Runtime.m */; };
+		B6E360F4439A4677AFBC9511 /* NativeScript.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = DA6D0A7E9E6D48098D4E24C6 /* NativeScript.xcframework */; };
+		6C9F7094DA604A8CBA690FF2 /* NativeScript.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA6D0A7E9E6D48098D4E24C6 /* NativeScript.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4CB9158724F84BF6BD361BB2 /* TNSWidgets.xcframework in Resources */ = {isa = PBXBuildFile; fileRef = DDE16EF6AA254AAA960CB05D /* TNSWidgets.xcframework */; };
+		A0D6615620A4447B8357158A /* TNSWidgets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDE16EF6AA254AAA960CB05D /* TNSWidgets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF51FD2D460BCFE21FA515B2 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		FC68EB0AF532CFC21C3344DD /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
-		729983E72CE748FC8D27E206 /* App-Bridging-Header.h */ = {isa = PBXFileReference; name = "App-Bridging-Header.h"; path = "NativeScript/App-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		2A48D125DBE049D2B20D6451 /* Runtime.h */ = {isa = PBXFileReference; name = Runtime.h; path = "NativeScript/Runtime.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6D54D6BDAD584E439D894FE7 /* Runtime.m */ = {isa = PBXFileReference; name = Runtime.m; path = "NativeScript/Runtime.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		E626E72211A344DA842E3EA6 /* NativeScript.xcframework */ = {isa = PBXFileReference; name = NativeScript.xcframework; path = NativeScript.xcframework; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CDE3686BE2F54F688A3D55C3 /* TNSWidgets.xcframework */ = {isa = PBXFileReference; name = TNSWidgets.xcframework; path = TNSWidgets.xcframework; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5920F2249AB048FFA4C2697B /* App-Bridging-Header.h */ = {isa = PBXFileReference; name = "App-Bridging-Header.h"; path = "NativeScript/App-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		BC14E8AA4C4648BEB924D740 /* Runtime.h */ = {isa = PBXFileReference; name = Runtime.h; path = "NativeScript/Runtime.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CDC0CC497CED44C893A43FA8 /* Runtime.m */ = {isa = PBXFileReference; name = Runtime.m; path = "NativeScript/Runtime.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		DA6D0A7E9E6D48098D4E24C6 /* NativeScript.xcframework */ = {isa = PBXFileReference; name = NativeScript.xcframework; path = NativeScript.xcframework; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDE16EF6AA254AAA960CB05D /* TNSWidgets.xcframework */ = {isa = PBXFileReference; name = TNSWidgets.xcframework; path = TNSWidgets.xcframework; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +48,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A084ECDBA7D38E1E42DFC39D /* Pods_App.framework in Frameworks */,
-				AAB06C56C01443CE9AD9674D /* NativeScript.xcframework in Resources */,
-				2B04A88C61684F978D817D60 /* TNSWidgets.xcframework in Resources */,
+				B6E360F4439A4677AFBC9511 /* NativeScript.xcframework in Resources */,
+				4CB9158724F84BF6BD361BB2 /* TNSWidgets.xcframework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				AF277DCFFFF123FFC6DF26C7 /* Pods_App.framework */,
-				E626E72211A344DA842E3EA6 /* NativeScript.xcframework */,
-				CDE3686BE2F54F688A3D55C3 /* TNSWidgets.xcframework */,
+				DA6D0A7E9E6D48098D4E24C6 /* NativeScript.xcframework */,
+				DDE16EF6AA254AAA960CB05D /* TNSWidgets.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 				504EC3051FED79650016851F /* Products */,
 				7F8756D8B27F46E3366F6CEA /* Pods */,
 				27E2DDA53C4D2A4D1A88CE4A /* Frameworks */,
-				54674D703AAF4A059FC6FDD6 /* NativeScript */,
+				06216DCFE3E44918AA1CF2F3 /* NativeScript */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,12 +109,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		54674D703AAF4A059FC6FDD6 /* NativeScript */ = {
+		06216DCFE3E44918AA1CF2F3 /* NativeScript */ = {
 			isa = PBXGroup;
 			children = (
-				729983E72CE748FC8D27E206 /* App-Bridging-Header.h */,
-				2A48D125DBE049D2B20D6451 /* Runtime.h */,
-				6D54D6BDAD584E439D894FE7 /* Runtime.m */,
+				5920F2249AB048FFA4C2697B /* App-Bridging-Header.h */,
+				BC14E8AA4C4648BEB924D740 /* Runtime.h */,
+				CDC0CC497CED44C893A43FA8 /* Runtime.m */,
 			);
 			name = NativeScript;
 			sourceTree = "<group>";
@@ -127,13 +127,13 @@
 			buildConfigurationList = 504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				6634F4EFEBD30273BCE97C65 /* [CP] Check Pods Manifest.lock */,
-				7CA8B0BA90CF45238004831F /* PreBuild */,
+				8E7BFED388D34F4AB12464E8 /* PreBuild */,
 				504EC3001FED79650016851F /* Sources */,
-				B17F19192E144CCE894808AC /* PreLink */,
+				8714B896D9264D51958E8307 /* PreLink */,
 				504EC3011FED79650016851F /* Frameworks */,
 				504EC3021FED79650016851F /* Resources */,
 				9592DBEFFC6D2A0C8D5DEB22 /* [CP] Embed Pods Frameworks */,
-				85094874DAC1489898CD34C3 /* Embed Frameworks */,
+				F1B3168E389A4AE197949B58 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +256,34 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/internal/nativescript-pre-link\"";
 		};
+		8E7BFED388D34F4AB12464E8 /* PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "PreBuild";
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/internal/nativescript-pre-build\"";
+		};
+		8714B896D9264D51958E8307 /* PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "PreLink";
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/internal/nativescript-pre-link\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				504EC3081FED79650016851F /* AppDelegate.swift in Sources */,
-				3B023F2108EB424A83B4D0E7 /* Runtime.m in Sources */,
+				E0B9EADB72274A0AB28B53E1 /* Runtime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +372,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				ENABLE_BITCODE = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NativeScript/App-Bridging-Header.h";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -378,7 +407,6 @@
 				);
 				LD = "$SRCROOT/internal/nsld.sh";
 				LDPLUSPLUS = "$SRCROOT/internal/nsld.sh";
-				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -429,6 +457,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				ENABLE_BITCODE = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NativeScript/App-Bridging-Header.h";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -463,7 +492,6 @@
 				);
 				LD = "$SRCROOT/internal/nsld.sh";
 				LDPLUSPLUS = "$SRCROOT/internal/nsld.sh";
-				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};
@@ -490,7 +518,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(SRCROOT)/NativeScript\"",
+					"\"$(SRCROOT)/$(SRCROOT)/NativeScript\"",
 				);
+				ENABLE_BITCODE = NO;
+				CLANG_ENABLE_MODULES = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NativeScript/App-Bridging-Header.h";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -525,8 +556,6 @@
 				);
 				LD = "$SRCROOT/internal/nsld.sh";
 				LDPLUSPLUS = "$SRCROOT/internal/nsld.sh";
-				ENABLE_BITCODE = NO;
-				CLANG_ENABLE_MODULES = NO;
 			};
 			name = Debug;
 		};
@@ -552,7 +581,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(SRCROOT)/NativeScript\"",
+					"\"$(SRCROOT)/$(SRCROOT)/NativeScript\"",
 				);
+				ENABLE_BITCODE = NO;
+				CLANG_ENABLE_MODULES = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NativeScript/App-Bridging-Header.h";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -587,8 +619,6 @@
 				);
 				LD = "$SRCROOT/internal/nsld.sh";
 				LDPLUSPLUS = "$SRCROOT/internal/nsld.sh";
-				ENABLE_BITCODE = NO;
-				CLANG_ENABLE_MODULES = NO;
 			};
 			name = Release;
 		};
@@ -622,6 +652,18 @@
 			files = (
 				19BA1843794748CC93AF9BD6 /* NativeScript.xcframework in Embed Frameworks */,
 				3E786DCDC81742488DB998AA /* TNSWidgets.xcframework in Embed Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Embed Frameworks";
+			dstPath = "";
+			dstSubfolderSpec = 10;
+		};
+		F1B3168E389A4AE197949B58 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9F7094DA604A8CBA690FF2 /* NativeScript.xcframework in Embed Frameworks */,
+				A0D6615620A4447B8357158A /* TNSWidgets.xcframework in Embed Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Embed Frameworks";

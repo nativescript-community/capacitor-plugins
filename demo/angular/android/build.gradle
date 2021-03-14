@@ -7,6 +7,11 @@ buildscript {
         jcenter()
     }
     dependencies {
+apply from: 'nativescript.buildscript.gradle'
+def computeKotlinVersion = { -> project.hasProperty("kotlinVersion") ? kotlinVersion : "1.4.21"}
+def kotlinVersion = computeKotlinVersion()
+classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
         classpath 'com.android.tools.build:gradle:4.1.2'
         classpath 'com.google.gms:google-services:4.3.3'
 

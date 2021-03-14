@@ -6,6 +6,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var runtime: TNSRuntime?
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // NativeScript init
@@ -13,6 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 TNSRuntime.initializeMetadata(pointer)
                 self.runtime = TNSRuntime.init(applicationPath: Bundle.main.bundlePath)
                 self.runtime?.executeModule("../public/nativescript/index.js")
+        
+                
+                
+                
+                
         // Override point for customization after application launch.
         return true
     }
