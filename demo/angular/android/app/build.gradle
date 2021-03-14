@@ -37,6 +37,10 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
     implementation project(':capacitor-cordova-android-plugins')
+
+    // Android review dependencies
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation 'com.google.android.play:core:1.10.0'
 }
 
 apply from: 'capacitor.build.gradle'
