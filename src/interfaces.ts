@@ -1,4 +1,4 @@
-import type {NativeProperty} from '@nativescript/capacitor';
+import type { NativeProperty } from '@nativescript/capacitor';
 
 /**
  * Define every plugin interface native helpers here.
