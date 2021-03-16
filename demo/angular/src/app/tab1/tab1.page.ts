@@ -21,4 +21,8 @@ export class Tab1Page {
   changeBrightness() {
     native.brightness(1); // Open native modal
   }
+
+  rateMyApp() {
+    native.rateMyApp(); // Open rate my app dialog
+  }
 }

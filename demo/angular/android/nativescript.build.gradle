@@ -197,7 +197,7 @@ dependencies {
     }
 
     implementation "com.google.android.material:material:$androidXMaterialVersion"
-   
+
     def useV8Symbols = false
 
     def runtime = "nativescript-optimized-with-inspector"

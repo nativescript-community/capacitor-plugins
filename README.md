@@ -77,6 +77,35 @@ import { native } from '@nativescript/capacitor';
 
 native.brightness(1);
 ```
+### 2. rateMyApp()
+You can allow users to rate the app from inside the application.
+
+#### iOS
+No additional configurations are required for iOS. 
+However, for now it supports iOS version 10.3 and later.  
+
+#### Android
+Before start using this function add next lines to the dependencies 
+section of your `android/app/build.gradle`
+
+```gradle
+implementation "androidx.appcompat:appcompat:1.2.0"
+implementation 'com.google.android.play:core:1.10.0'
+```
+You can read more about how to import Google Play Core Library 
+into your project [here](https://developer.android.com/guide/playcore?authuser=1#java-kotlin)
+
+In-app reviews only work on Android devices (phones and tablets) running Android 5.0 (API level 21) 
+or higher that have the Google Play Store installed and on Chrome OS devices that have the Google Play Store installed.
+
+Important: your app should be published for at least internal testing. 
+Read more about it in [this SO answer](https://stackoverflow.com/questions/63286540/play-core-in-app-review-api-not-showing-the-review-activity)
+
+#### Usage
+```ts
+import { native } from '@nativescript/capacitor';
+native.rateMyApp();
+```
 
 ### Demo Code
 You can check Native Console Log. This is official example code.
