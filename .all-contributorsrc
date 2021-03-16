@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "SergeyMell",
+      "name": "Sergey Mell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12133261?v=4",
+      "profile": "https://agilie.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "capacitor-plugins",
+  "projectOwner": "nativescript-community",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
