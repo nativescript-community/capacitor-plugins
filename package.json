@@ -9,7 +9,7 @@
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
   "license": "MIT",
   "scripts": {
-    "release": "np --no-cleanup",
+    "release": "np",
     "build:nativescript": "build-nativescript",
     "build:mobile": "npm-run-all build build:nativescript"
   },
